@@ -14,6 +14,9 @@
 		B4F909B62351A6010033C10D /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F909B52351A6010033C10D /* LoginResponseModel.swift */; };
 		B4F909BB2351A63A0033C10D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F909BA2351A63A0033C10D /* HomeViewController.swift */; };
 		B4F909BF2351A73C0033C10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F909BD2351A73C0033C10D /* Main.storyboard */; };
+		B4F909C22351AEC00033C10D /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F909C12351AEC00033C10D /* LoginRouter.swift */; };
+		B4F909C42351AEF00033C10D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F909C32351AEF00033C10D /* APIService.swift */; };
+		B4F909CA2351AF790033C10D /* FailAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F909C92351AF790033C10D /* FailAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		B4F909B52351A6010033C10D /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
 		B4F909BA2351A63A0033C10D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B4F909BE2351A73C0033C10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4F909C12351AEC00033C10D /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		B4F909C32351AEF00033C10D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B4F909C92351AF790033C10D /* FailAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				B4F909A02351A4F10033C10D /* AppDelegate.swift */,
+				B4F909C82351AF4F0033C10D /* Utils */,
+				B4F909C52351AEF60033C10D /* WebService */,
+				B4F909C02351AEAB0033C10D /* Router */,
 				B4F909B92351A6210033C10D /* ViewController */,
 				B4F909B82351A6140033C10D /* View */,
 				B4F909B72351A60D0033C10D /* Model */,
@@ -92,6 +101,30 @@
 				B4F909BA2351A63A0033C10D /* HomeViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B4F909C02351AEAB0033C10D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B4F909C12351AEC00033C10D /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		B4F909C52351AEF60033C10D /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				B4F909C32351AEF00033C10D /* APIService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		B4F909C82351AF4F0033C10D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B4F909C92351AF790033C10D /* FailAlert.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +201,10 @@
 				B4F909B62351A6010033C10D /* LoginResponseModel.swift in Sources */,
 				B4F909A32351A4F10033C10D /* LoginViewController.swift in Sources */,
 				B4F909A12351A4F10033C10D /* AppDelegate.swift in Sources */,
+				B4F909C22351AEC00033C10D /* LoginRouter.swift in Sources */,
+				B4F909C42351AEF00033C10D /* APIService.swift in Sources */,
 				B4F909BB2351A63A0033C10D /* HomeViewController.swift in Sources */,
+				B4F909CA2351AF790033C10D /* FailAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
