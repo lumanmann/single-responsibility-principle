@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  SPR
 //
 //  Created by WY NG on 12/10/2019.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+final class HomeViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .yellow
     }
-
-
+    
 }
-
