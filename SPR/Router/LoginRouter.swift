@@ -9,14 +9,14 @@
 import UIKit
 
 final class LoginRouter {
-    private let presenter: UIViewController
+    private weak var presenter: UIViewController?
     
     init(presenter: UIViewController) {
         self.presenter = presenter
     }
     
     func toHomePage() {
-        presenter.present(HomeViewController(), animated: true, completion: nil)
+        presenter?.present(HomeViewController(), animated: true, completion: nil)
     }
     
 }
